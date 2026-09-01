@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Codificação e responsividade -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Título e descrição da página -->
+    <title>Aulas para Habilitados - Instrutor Carlos</title>
+    <meta name="description"
+        content="Aulas particulares para motoristas habilitados e aulas de 1º habilitação em Jundiaí e região. Supere o medo do trânsito e aprenda a dirigir com o Instrutor Carlos." />
+    <meta name="author"
+        content="Diego Francisco da Silva - @dev.software.web - https://diegofranciscodasilva.github.io/dev-software-web/">
+    <meta name="robots" content="index, follow">
+
+    <!-- Meta tags do protocolo Open Graph (OG) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Aulas para Habilitados - Instrutor Carlos">
+    <meta property="og:description"
+        content="Aulas particulares para motoristas habilitados e aulas de 1º habilitação em Jundiaí e região. Supere o medo do trânsito e aprenda a dirigir com o Instrutor Carlos.">
+
+    <meta property="og:image" content="">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Capa da landing page Aulas para Habilitados - Instrutor Carlos">
+
+    <!-- Shortcut icon -->
+    <link rel="shortcut icon" href="./assets/images/carro.png" type="image/x-icon">
+
+    <!-- Fonte Manrope (Google Fonts) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <!-- Font Awesome (ícones) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!-- CSS próprio do projeto -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- JS carregado no head (sem defer) para aplicar o tema antes da renderização e evitar "flash" de cor -->
+    <script src="./assets/js/script.js"></script>
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+
+            <!-- Logo / marca -->
+            <a href="#inicio" class="logo">
+                <i class="fa-solid fa-car-side"></i>
+                <span>Instrutor Carlos</span>
+            </a>
+
+            <!-- Navegação desktop -->
+            <nav class="nav-desktop" aria-label="Navegação principal">
+                <a href="#inicio" class="nav-link active">Início</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#beneficios" class="nav-link">Benefícios</a>
+                <a href="#como-funciona" class="nav-link">Como Funciona</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </nav>
+
+            <!-- Ações do header: tema + CTA + menu mobile -->
+            <div class="header__actions">
+
+                <!-- Botão de alternância de tema claro/escuro -->
+                <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema claro/escuro"
+                    aria-pressed="false">
+                    <i class="fa-solid fa-moon" id="theme-icon"></i>
+                </button>
+
+                <!-- CTA desktop -->
+                <a href="https://wa.me/5511971101154" target="_blank" rel="noopener"
+                    class="btn btn-primary btn-desktop-only">
+                    Falar com o instrutor
+                </a>
+
+                <!-- Botão do menu mobile -->
+                <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Abrir menu" aria-expanded="false"
+                    aria-controls="mobile-menu">
+                    <i class="fa-solid fa-bars" id="mobile-menu-icon"></i>
+                </button>
+
+            </div>
+        </div>
+
+        <!-- Painel do menu mobile (oculto por padrão) -->
+        <nav id="mobile-menu" class="mobile-menu" aria-label="Navegação mobile">
+            <a href="#inicio" class="mobile-nav-link">Início</a>
+            <a href="#sobre" class="mobile-nav-link">Sobre</a>
+            <a href="#servicos" class="mobile-nav-link">Serviços</a>
+            <a href="#beneficios" class="mobile-nav-link">Benefícios</a>
+            <a href="#como-funciona" class="mobile-nav-link">Como Funciona</a>
+            <a href="#faq" class="mobile-nav-link">FAQ</a>
+            <a href="https://wa.me/5511971101154" target="_blank" rel="noopener" class="btn btn-primary mobile-cta">
+                Falar com o instrutor
+            </a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ===== HERO ===== -->
+        <section id="inicio" class="section hero">
+            <div class="container hero__grid">
+
+                <!-- Coluna de texto -->
+                <div class="hero__content">
+                    <span class="hero__eyebrow">1º habilitação • retomada da direção</span>
+                    <h1 class="heading-xl">Sua liberdade no volante começa com confiança</h1>
+                    <p class="text-lg text-muted">
+                        Aulas personalizadas para quem quer tirar a 1º habilitação, retomar a direção com segurança e
+                        vencer o medo de trafegar com calma, técnica e autonomia.
+                    </p>
+
+                    <!-- Botões de ação -->
+                    <div class="hero__actions">
+                        <a href="https://wa.me/5511971101154" target="_blank" rel="noopener" class="btn btn-primary">
+                            Quero aprender !
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#servicos" class="btn btn-outline">Conhecer as aulas</a>
+                    </div>
+
+                    <!-- Selo de localização -->
+                    <div class="hero__location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Atendimento em Jundiaí e região</span>
+                    </div>
+                </div>
+
+                <!-- Coluna de imagem -->
+                <div class="hero__media">
+                    <div class="hero__image-wrap">
+                        <img src="./assets/images/main-image.jpg" alt="Imagem propaganda da página" loading="lazy" />
+                    </div>
+
+                    <!-- Selo decorativo flutuante -->
+                    <div class="hero__badge">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div>
+                            <p class="text-label-md">Instrutor Credenciado</p>
+                            <p class="text-label-sm text-muted">Experiência e paciência</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===== SOBRE ===== -->
+        <section id="sobre" class="section section--alt">
+            <div class="container about__grid">
+
+                <!-- Placeholder de imagem/apresentação -->
+                <div class="about__placeholder">
+                    <div class="about__image-wrap">
+                        <img src="./assets/images/instrutor-carlos.jpg" alt="Foto do instrutor Carlos" loading="lazy">
+                    </div>
+                    <p class="text-label-md text-muted">Foto e apresentação do instrutor — conteúdo autorizado</p>
+                </div>
+
+                <!-- Texto sobre o instrutor -->
+                <div>
+                    <h2 class="heading-lg">Aprender no seu ritmo faz diferença</h2>
+                    <p class="text-lg text-muted">
+                        Com anos de experiência ajudando motoristas habilitados e alunos da 1º habilitação a superarem
+                        seus limites no trânsito, o Instrutor Carlos oferece um acompanhamento individualizado,
+                        respeitando o tempo e as necessidades de cada aluno.
+                    </p>
+                    <p class="text-lg text-muted">
+                        Seja para perder o medo de dirigir, treinar percursos específicos, aprimorar técnicas de
+                        estacionamento ou iniciar sua jornada na 1º habilitação, as aulas são desenhadas para construir
+                        sua confiança de forma segura e progressiva.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===== SERVIÇOS ===== -->
+        <section id="servicos" class="section">
+            <div class="container">
+
+                <!-- Título da seção -->
+                <div class="section__header">
+                    <span class="section__eyebrow">Soluções práticas para cada etapa da direção</span>
+                    <h2 class="heading-lg">Serviços Personalizados</h2>
+                    <p class="text-lg text-muted">Aulas focadas no que você realmente precisa para dirigir com
+                        tranquilidade, segurança e autonomia.</p>
+                </div>
+
+                <!-- Grade de cards -->
+                <div class="grid grid--3">
+
+                    <div class="card">
+                        <div class="card__icon"><i class="fa-solid fa-id-card"></i></div>
+                        <h3 class="heading-md">1º habilitação</h3>
+                        <p class="text-muted">Aulas práticas e orientações para quem está começando no trânsito com
+                            segurança, calma e evolução gradual.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__icon"><i class="fa-solid fa-car"></i></div>
+                        <h3 class="heading-md">Retomada da prática</h3>
+                        <p class="text-muted">Para quem ficou muito tempo sem dirigir e quer voltar ao volante com
+                            segurança.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__icon"><i class="fa-solid fa-city"></i></div>
+                        <h3 class="heading-md">Segurança no trânsito urbano</h3>
+                        <p class="text-muted">Treinamento prático nas ruas da cidade, enfrentando o trânsito real com
+                            apoio contínuo.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__icon"><i class="fa-solid fa-square-parking"></i></div>
+                        <h3 class="heading-md">Estacionamento e baliza</h3>
+                        <p class="text-muted">Técnicas descomplicadas para estacionar e fazer baliza sem estresse.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__icon"><i class="fa-solid fa-id-badge"></i></div>
+                        <h3 class="heading-md">Direção para recém-habilitados</h3>
+                        <p class="text-muted">Apoio extra para quem acabou de tirar a CNH e quer mais vivência antes de
+                            dirigir sozinho.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__icon"><i class="fa-solid fa-brain"></i></div>
+                        <h3 class="heading-md">Apoio para insegurança ao dirigir</h3>
+                        <p class="text-muted">Abordagem paciente e empática para superar bloqueios e medos no trânsito.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Aviso demonstrativo -->
+                <div class="notice-wrap">
+                    <span class="notice">Conteúdo demonstrativo — confirmar modalidades com o instrutor.</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===== BENEFÍCIOS ===== -->
+        <section id="beneficios" class="section band">
+            <div class="container">
+                <h2 class="heading-lg band__title">Por que escolher o Instrutor Carlos ?</h2>
+
+                <div class="grid grid--3">
+
+                    <div class="benefit">
+                        <div class="benefit__icon"><i class="fa-solid fa-user"></i></div>
+                        <div>
+                            <h4 class="text-lg text-bold">Atendimento individual</h4>
+                            <p class="band__text">Foco total nas suas necessidades durante toda a aula.</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit">
+                        <div class="benefit__icon"><i class="fa-solid fa-route"></i></div>
+                        <div>
+                            <h4 class="text-lg text-bold">Orientação passo a passo</h4>
+                            <p class="band__text">Instruções claras e sem pressa para garantir seu aprendizado.</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit">
+                        <div class="benefit__icon"><i class="fa-solid fa-sliders"></i></div>
+                        <div>
+                            <h4 class="text-lg text-bold">Treino adaptado</h4>
+                            <p class="band__text">Aulas no seu próprio veículo (se preferir) e nos seus trajetos
+                                diários.</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit">
+                        <div class="benefit__icon"><i class="fa-solid fa-eye"></i></div>
+                        <div>
+                            <h4 class="text-lg text-bold">Foco em situações práticas</h4>
+                            <p class="band__text">Preparação para o trânsito real do dia a dia.</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit">
+                        <div class="benefit__icon"><i class="fa-solid fa-comments"></i></div>
+                        <div>
+                            <h4 class="text-lg text-bold">Comunicação clara</h4>
+                            <p class="band__text">Diálogo aberto para tirar dúvidas e corrigir falhas sem julgamentos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="benefit">
+                        <div class="benefit__icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+                        <div>
+                            <h4 class="text-lg text-bold">Evolução gradual</h4>
+                            <p class="band__text">Aumento progressivo da dificuldade conforme sua confiança cresce.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== COMO FUNCIONA ===== -->
+        <section id="como-funciona" class="section">
+            <div class="container">
+
+                <div class="section__header">
+                    <h2 class="heading-lg">Como Funciona</h2>
+                    <p class="text-lg text-muted">Quatro passos simples para começar suas aulas.</p>
+                </div>
+
+                <div class="steps">
+
+                    <div class="step">
+                        <div class="step__number">1</div>
+                        <h4 class="text-lg text-bold">Entre em contato</h4>
+                        <p class="text-muted">Mande uma mensagem ou ligue para iniciar o atendimento.</p>
+                    </div>
+
+                    <div class="step">
+                        <div class="step__number">2</div>
+                        <h4 class="text-lg text-bold">Explique sua necessidade</h4>
+                        <p class="text-muted">Conte o que você precisa melhorar ou quais são seus maiores receios.</p>
+                    </div>
+
+                    <div class="step">
+                        <div class="step__number">3</div>
+                        <h4 class="text-lg text-bold">Combine as informações</h4>
+                        <p class="text-muted">Alinhemos os detalhes: horários, local de início e valores.</p>
+                    </div>
+
+                    <div class="step">
+                        <div class="step__number step__number--accent">4</div>
+                        <h4 class="text-lg text-bold">Agende a aula</h4>
+                        <p class="text-muted">Pronto ! Seu horário está marcado para darmos início ao treino.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FAQ ===== -->
+        <section id="faq" class="section section--alt">
+            <div class="container container--narrow">
+                <h2 class="heading-lg faq__title">Dúvidas Frequentes</h2>
+
+                <div class="faq-list">
+
+                    <details class="faq-item">
+                        <summary>
+                            <span>Você dá aula para 1º habilitação ?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </summary>
+                        <p>Sim, também trabalho com aulas para 1º habilitação, com foco em segurança, confiança e
+                            evolução no trânsito desde o começo.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <span>As aulas são apenas em Jundiaí e Região ?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </summary>
+                        <p>Sim, o atendimento principal é em Jundiaí e Região. Consulte a disponibilidade para
+                            outras localidades.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <span>Posso treinar estacionamento e manobras ?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </summary>
+                        <p>Sim, podemos focar nas manobras específicas que você precisa no seu dia a dia.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <span>Estou muito tempo sem dirigir, tem problema ?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </summary>
+                        <p>Nenhum problema ! As aulas são exatamente para ajudar você a retomar a prática com confiança.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <span>As aulas podem ser no meu próprio carro ?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </summary>
+                        <p>Faremos a avaliação no carro da empresa, dependendo da avaliação inicial, podemos realizar as
+                            aulas no seu veículo para maior
+                            adaptação.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <span>Qual a duração de cada aula ?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </summary>
+                        <p>As aulas têm duração de 50 minutos. Podemos agendar aulas duplas se
+                            preferir.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <span>Vocês preparam para o exame do Detran ?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </summary>
+                        <p>O foco principal é para quem já é habilitado. Para primeira habilitação, consulte as
+                            condições.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <span>Quais os horários de atendimento ?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </summary>
+                        <p>Horários flexíveis a combinar. Agende conforme sua disponibilidade.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <span>Quais as formas de pagamento ?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </summary>
+                        <p>Aceitamos Pix, cartões de crédito e débito. Consulte pacotes de aulas para valores
+                            promocionais.</p>
+                    </details>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container footer__inner">
+
+            <div class="footer__brand">
+                <span class="logo logo--footer">
+                    <i class="fa-solid fa-car-side"></i>
+                    <span>Instrutor Carlos</span>
+                </span>
+                <p class="text-label-sm footer__muted">© <span data-current-year></span> Instrutor Carlos - Jundiaí e
+                    Região/SP</p>
+            </div>
+
+            <nav class="footer__links" aria-label="Redes sociais e links institucionais">
+                <a href="https://www.instagram.com/instrutoremjundiai_carlos/" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-instagram"></i> Instagram
+                </a>
+                <a href="https://www.facebook.com/people/Aulas-para-Habilitados/100063995201264/" target="_blank"
+                    rel="noopener">
+                    <i class="fa-brands fa-facebook"></i> Facebook
+                </a>
+                <a href="https://wa.me/5511971101154" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                </a>
+            </nav>
+            <span class="footer_copy">Feito com ❤️ por <a
+                    href="https://diegofranciscodasilva.github.io/dev-software-web/" target="_blank"
+                    rel="noopener noreferrer">dev.software.web &#169;</a></span>
+        </div>
+    </footer>
+
+    <!-- Botão Scroll to Top -->
+    <button id="scroll-to-top" class="scroll-to-top" aria-label="Voltar ao topo" title="Voltar ao topo">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+</body>
+
+</html>
