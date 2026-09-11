@@ -7,28 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <!-- Título e descrição da página -->
-    <title>Aulas para Habilitados - Instrutor Carlos</title>
+    <!-- Título e descrição da página para SEO e navegadores -->
+    <title>Instrutor Carlos | Aulas de Direção em Jundiaí e Região</title>
     <meta name="description"
-        content="Aulas particulares para motoristas habilitados e aulas de 1º habilitação em Jundiaí e região. Supere o medo do trânsito e aprenda a dirigir com o Instrutor Carlos." />
-    <meta name="author"
-        content="Diego Francisco da Silva - @dev.software.web - https://diegofranciscodasilva.github.io/dev-software-web/">
-    <meta name="robots" content="index, follow">
+        content="Aulas práticas de direção para primeira habilitação, recém-habilitados e motoristas que desejam recuperar a confiança ao dirigir em Jundiaí e região." />
+    <meta name="keywords"
+        content="Instrutor Carlos, aulas de direção, aulas para habilitados, primeira habilitação, medo de dirigir, aulas de volante, Jundiaí, motorista iniciante, aulas particulares de direção" />
+    <meta name="author" content="Instrutor Carlos" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="language" content="pt-BR" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
 
-    <!-- Meta tags do protocolo Open Graph (OG) -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://instrutorcarlos.vercel.app/">
-    <meta property="og:title" content="Aulas para Habilitados - Instrutor Carlos">
+    <!-- Canonical URL para evitar conteúdo duplicado -->
+    <link rel="canonical" href="https://instrutorcarlos.vercel.app/" />
+
+    <!-- Meta tags do protocolo Open Graph (OG) para redes sociais -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Instrutor Carlos" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:url" content="https://instrutorcarlos.vercel.app/" />
+    <meta property="og:title" content="Instrutor Carlos | Aulas de Direção em Jundiaí e Região" />
     <meta property="og:description"
-        content="Aulas particulares para motoristas habilitados e aulas de 1º habilitação em Jundiaí e região. Supere o medo do trânsito e aprenda a dirigir com o Instrutor Carlos.">
+        content="Aulas de direção personalizadas para desenvolver segurança, confiança e autonomia no trânsito em Jundiaí e região." />
+    <meta property="og:image" content="https://instrutorcarlos.vercel.app/assets/images/preview.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Instrutor Carlos oferecendo aulas práticas de direção em Jundiaí e região" />
 
-    <meta property="og:image" content="https://instrutorcarlos.vercel.app/assets/images/preview.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Capa da landing page Aulas para Habilitados - Instrutor Carlos">
+    <!-- Meta tags para Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Instrutor Carlos | Aulas de Direção em Jundiaí e Região" />
+    <meta name="twitter:description"
+        content="Aulas práticas para primeira habilitação, recém-habilitados e motoristas que desejam dirigir com mais confiança em Jundiaí e região." />
+    <meta name="twitter:image" content="https://instrutorcarlos.vercel.app/assets/images/preview.png" />
+    <meta name="twitter:image:alt" content="Instrutor Carlos oferecendo aulas práticas de direção" />
+
+    <!-- Cor da barra de endereço em navegadores móveis -->
+    <meta name="theme-color" content="#2563eb" />
 
     <!-- Shortcut icon -->
-    <link rel="shortcut icon" href="./assets/images/carro.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/carro.png" type="image/x-icon" />
 
     <!-- Fonte Manrope (Google Fonts) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -36,13 +55,180 @@
         rel="stylesheet" />
 
     <!-- Font Awesome (ícones) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- CSS próprio do projeto -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
     <!-- JS carregado no head (sem defer) para aplicar o tema antes da renderização e evitar "flash" de cor -->
     <script src="./assets/js/script.js"></script>
+
+    <!-- Dados Estruturados (JSON-LD) para SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Person",
+                "@id": "https://instrutorcarlos.vercel.app/#person",
+                "name": "Instrutor Carlos",
+                "url": "https://instrutorcarlos.vercel.app/",
+                "image": "https://instrutorcarlos.vercel.app/assets/images/instrutor-carlos.jpg",
+                "jobTitle": "Instrutor de Direção",
+                "description": "Instrutor de direção que oferece aulas práticas para primeira habilitação, recém-habilitados e motoristas que desejam recuperar a confiança ao dirigir em Jundiaí e região.",
+                "areaServed": {
+                    "@type": "Place",
+                    "name": "Jundiaí e região, São Paulo, Brasil"
+                },
+                "sameAs": [
+                    "https://www.instagram.com/instrutoremjundiai_carlos/",
+                    "https://www.facebook.com/people/Aulas-para-Habilitados/100063995201264/"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+5511971101154",
+                    "contactType": "customer service",
+                    "areaServed": "Jundiaí e Região",
+                    "availableLanguage": "pt-BR",
+                    "url": "https://wa.me/5511971101154"
+                }
+            },
+            {
+                "@type": "LocalBusiness",
+                "@id": "https://instrutorcarlos.vercel.app/#localbusiness",
+                "name": "Instrutor Carlos - Aulas de Direção",
+                "url": "https://instrutorcarlos.vercel.app/",
+                "image": "https://instrutorcarlos.vercel.app/assets/images/preview.png",
+                "telephone": "+5511971101154",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Jundiaí",
+                    "addressRegion": "SP",
+                    "addressCountry": "BR"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "-23.1872",
+                    "longitude": "-46.8842"
+                },
+                "areaServed": {
+                    "@type": "Place",
+                    "name": "Jundiaí e Região"
+                },
+                "openingHoursSpecification": [
+                    {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                        "opens": "08:00",
+                        "closes": "18:00"
+                    },
+                    {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": "Saturday",
+                        "opens": "08:00",
+                        "closes": "12:00"
+                    }
+                ],
+                "priceRange": "$$"
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://instrutorcarlos.vercel.app/#website",
+                "url": "https://instrutorcarlos.vercel.app/",
+                "name": "Instrutor Carlos",
+                "description": "Aulas de direção personalizadas para primeira habilitação e motoristas habilitados em Jundiaí e região.",
+                "publisher": {
+                    "@id": "https://instrutorcarlos.vercel.app/#person"
+                },
+                "inLanguage": "pt-BR"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Dados Estruturados (JSON-LD) para FAQ -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Você dá aula para primeira habilitação?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sim. Também são oferecidas aulas para primeira habilitação, com foco em segurança, confiança e evolução no trânsito."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "As aulas são apenas em Jundiaí e região?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "O atendimento principal é realizado em Jundiaí e região. Consulte a disponibilidade para outras localidades."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Posso treinar estacionamento e manobras?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sim. As aulas podem ser direcionadas para as manobras específicas que o aluno precisa praticar no dia a dia."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Estou há muito tempo sem dirigir. Posso fazer aulas?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sim. As aulas ajudam o motorista a retomar a prática e desenvolver confiança para dirigir novamente."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "As aulas podem ser no meu próprio carro?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "As aulas são avaliadas inicialmente no carro da empresa. Após essa avaliação, poderão ser realizadas no veículo do aluno, conforme as condições combinadas."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Qual é a duração de cada aula?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "As aulas têm duração de 50 minutos. Também é possível consultar a disponibilidade de aulas duplas."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Vocês preparam para o exame do Detran?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "O foco principal é para quem já é habilitado. Para primeira habilitação, consulte as condições específicas."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Quais os horários de atendimento?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Horários flexíveis a combinar. Agende conforme sua disponibilidade."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Quais as formas de pagamento?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Aceitamos Pix, cartões de crédito e débito. Consulte pacotes de aulas para valores promocionais."
+                }
+            }
+        ]
+    }
+    </script>
 </head>
 
 <body>
@@ -77,8 +263,8 @@
                 </button>
 
                 <!-- CTA desktop -->
-                <a href="https://wa.me/5511971101154" target="_blank" rel="noopener"
-                    class="btn btn-primary btn-desktop-only">
+                <a href="https://wa.me/5511971101154?text=Olá%2C%20Instrutor%20Carlos!%20Gostaria%20de%20saber%20mais%20sobre%20as%20aulas%20de%20direção."
+                    target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-desktop-only">
                     Falar com o instrutor
                 </a>
 
@@ -99,7 +285,8 @@
             <a href="#beneficios" class="mobile-nav-link">Benefícios</a>
             <a href="#como-funciona" class="mobile-nav-link">Como Funciona</a>
             <a href="#faq" class="mobile-nav-link">FAQ</a>
-            <a href="https://wa.me/5511971101154" target="_blank" rel="noopener" class="btn btn-primary mobile-cta">
+            <a href="https://wa.me/5511971101154?text=Olá%2C%20Instrutor%20Carlos!%20Gostaria%20de%20saber%20mais%20sobre%20as%20aulas%20de%20direção."
+                target="_blank" rel="noopener noreferrer" class="btn btn-primary mobile-cta">
                 Falar com o instrutor
             </a>
         </nav>
@@ -113,17 +300,18 @@
 
                 <!-- Coluna de texto -->
                 <div class="hero__content">
-                    <span class="hero__eyebrow">1º habilitação • retomada da direção</span>
+                    <span class="hero__eyebrow">1ª habilitação • retomada da direção</span>
                     <h1 class="heading-xl">Sua liberdade no volante começa com confiança</h1>
                     <p class="text-lg text-muted">
-                        Aulas personalizadas para quem quer tirar a 1º habilitação, retomar a direção com segurança e
+                        Aulas personalizadas para quem quer tirar a 1ª habilitação, retomar a direção com segurança e
                         vencer o medo de trafegar com calma, técnica e autonomia.
                     </p>
 
                     <!-- Botões de ação -->
                     <div class="hero__actions">
-                        <a href="https://wa.me/5511971101154" target="_blank" rel="noopener" class="btn btn-primary">
-                            Quero aprender !
+                        <a href="https://wa.me/5511971101154?text=Olá%2C%20Instrutor%20Carlos!%20Quero%20aprender%20a%20dirigir%20com%20confiança."
+                            target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                            Quero aprender!
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
                         <a href="#servicos" class="btn btn-outline">Conhecer as aulas</a>
@@ -139,7 +327,8 @@
                 <!-- Coluna de imagem -->
                 <div class="hero__media">
                     <div class="hero__image-wrap">
-                        <img src="./assets/images/main-image.jpg" alt="Imagem propaganda da página" loading="lazy" />
+                        <img src="./assets/images/main-image.jpg"
+                            alt="Imagem de um carro sendo dirigido em uma estrada, simbolizando liberdade e confiança na direção" />
                     </div>
 
                     <!-- Selo decorativo flutuante -->
@@ -162,7 +351,8 @@
                 <!-- Placeholder de imagem/apresentação -->
                 <div class="about__placeholder">
                     <div class="about__image-wrap">
-                        <img src="./assets/images/instrutor-carlos.jpg" alt="Foto do instrutor Carlos" loading="lazy">
+                        <img src="./assets/images/instrutor-carlos.jpg"
+                            alt="Foto do instrutor Carlos, um homem sorrindo com um carro ao fundo" loading="lazy">
                     </div>
                     <p class="text-label-md text-muted">Foto e apresentação do instrutor — conteúdo autorizado</p>
                 </div>
@@ -171,13 +361,13 @@
                 <div>
                     <h2 class="heading-lg">Aprender no seu ritmo faz diferença</h2>
                     <p class="text-lg text-muted">
-                        Com anos de experiência ajudando motoristas habilitados e alunos da 1º habilitação a superarem
+                        Com anos de experiência ajudando motoristas habilitados e alunos da 1ª habilitação a superarem
                         seus limites no trânsito, o Instrutor Carlos oferece um acompanhamento individualizado,
                         respeitando o tempo e as necessidades de cada aluno.
                     </p>
                     <p class="text-lg text-muted">
                         Seja para perder o medo de dirigir, treinar percursos específicos, aprimorar técnicas de
-                        estacionamento ou iniciar sua jornada na 1º habilitação, as aulas são desenhadas para construir
+                        estacionamento ou iniciar sua jornada na 1ª habilitação, as aulas são desenhadas para construir
                         sua confiança de forma segura e progressiva.
                     </p>
                 </div>
@@ -202,84 +392,74 @@
 
                     <div class="card">
                         <div class="card__icon"><i class="fa-solid fa-id-card"></i></div>
-                        <h3 class="heading-md">1º habilitação</h3>
-                        <p class="text-muted">Aulas práticas e orientações para quem está começando no trânsito com
-                            segurança, calma e evolução gradual.</p>
+                        <h3 class="heading-md">1ª Habilitação</h3>
+                        <p class="card__text">Aulas para quem está começando, com foco em segurança e técnicas
+                            essenciais para o exame e o dia a dia.</p>
                     </div>
 
                     <div class="card">
-                        <div class="card__icon"><i class="fa-solid fa-car"></i></div>
-                        <h3 class="heading-md">Retomada da prática</h3>
-                        <p class="text-muted">Para quem ficou muito tempo sem dirigir e quer voltar ao volante com
-                            segurança.</p>
+                        <div class="card__icon"><i class="fa-solid fa-road"></i></div>
+                        <h3 class="heading-md">Perda do Medo de Dirigir</h3>
+                        <p class="card__text">Sessões especiais para superar a ansiedade e o medo, retomando a direção
+                            com confiança e tranquilidade.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__icon"><i class="fa-solid fa-car-rear"></i></div>
+                        <h3 class="heading-md">Aprimoramento de Técnicas</h3>
+                        <p class="card__text">Treinamento de baliza, estacionamento, controle de embreagem e outras
+                            manobras para maior domínio do veículo.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                        <h3 class="heading-md">Percursos Específicos</h3>
+                        <p class="card__text">Aulas focadas em rotas que você usa no dia a dia (trabalho, escola, casa)
+                            para ganhar confiança no seu trajeto.</p>
                     </div>
 
                     <div class="card">
                         <div class="card__icon"><i class="fa-solid fa-city"></i></div>
-                        <h3 class="heading-md">Segurança no trânsito urbano</h3>
-                        <p class="text-muted">Treinamento prático nas ruas da cidade, enfrentando o trânsito real com
-                            apoio contínuo.</p>
+                        <h3 class="heading-md">Trânsito Urbano</h3>
+                        <p class="card__text">Prática em ruas movimentadas, avenidas e rodovias, desenvolvendo
+                            habilidades para diferentes cenários de tráfego.</p>
                     </div>
 
                     <div class="card">
-                        <div class="card__icon"><i class="fa-solid fa-square-parking"></i></div>
-                        <h3 class="heading-md">Estacionamento e baliza</h3>
-                        <p class="text-muted">Técnicas descomplicadas para estacionar e fazer baliza sem estresse.</p>
-                    </div>
-
-                    <div class="card">
-                        <div class="card__icon"><i class="fa-solid fa-id-badge"></i></div>
-                        <h3 class="heading-md">Direção para recém-habilitados</h3>
-                        <p class="text-muted">Apoio extra para quem acabou de tirar a CNH e quer mais vivência antes de
-                            dirigir sozinho.</p>
-                    </div>
-
-                    <div class="card">
-                        <div class="card__icon"><i class="fa-solid fa-brain"></i></div>
-                        <h3 class="heading-md">Apoio para insegurança ao dirigir</h3>
-                        <p class="text-muted">Abordagem paciente e empática para superar bloqueios e medos no trânsito.
-                        </p>
+                        <div class="card__icon"><i class="fa-solid fa-handshake"></i></div>
+                        <h3 class="heading-md">Recém-Habilitados</h3>
+                        <p class="card__text">Apoio para quem acabou de tirar a CNH e precisa de mais prática e
+                            segurança antes de dirigir sozinho.</p>
                     </div>
 
                 </div>
-
-                <!-- Aviso demonstrativo -->
-                <div class="notice-wrap">
-                    <span class="notice">Conteúdo demonstrativo — confirmar modalidades com o instrutor.</span>
-                </div>
-
             </div>
         </section>
 
         <!-- ===== BENEFÍCIOS ===== -->
-        <section id="beneficios" class="section band">
+        <section id="beneficios" class="section section--alt">
             <div class="container">
-                <h2 class="heading-lg band__title">Por que escolher o Instrutor Carlos ?</h2>
+                <div class="section__header">
+                    <span class="section__eyebrow">Por que escolher o Instrutor Carlos?</span>
+                    <h2 class="heading-lg">Vantagens das Aulas</h2>
+                    <p class="text-lg text-muted">Aulas que vão além do básico, focadas na sua evolução e segurança.</p>
+                </div>
 
                 <div class="grid grid--3">
 
                     <div class="benefit">
-                        <div class="benefit__icon"><i class="fa-solid fa-user"></i></div>
+                        <div class="benefit__icon"><i class="fa-solid fa-user-check"></i></div>
                         <div>
-                            <h4 class="text-lg text-bold">Atendimento individual</h4>
-                            <p class="band__text">Foco total nas suas necessidades durante toda a aula.</p>
+                            <h4 class="text-lg text-bold">Atendimento individualizado</h4>
+                            <p class="band__text">Foco total nas suas dificuldades e objetivos.</p>
                         </div>
                     </div>
 
                     <div class="benefit">
-                        <div class="benefit__icon"><i class="fa-solid fa-route"></i></div>
+                        <div class="benefit__icon"><i class="fa-solid fa-shield-halved"></i></div>
                         <div>
-                            <h4 class="text-lg text-bold">Orientação passo a passo</h4>
-                            <p class="band__text">Instruções claras e sem pressa para garantir seu aprendizado.</p>
-                        </div>
-                    </div>
-
-                    <div class="benefit">
-                        <div class="benefit__icon"><i class="fa-solid fa-sliders"></i></div>
-                        <div>
-                            <h4 class="text-lg text-bold">Treino adaptado</h4>
-                            <p class="band__text">Aulas no seu próprio veículo (se preferir) e nos seus trajetos
-                                diários.</p>
+                            <h4 class="text-lg text-bold">Segurança e paciência</h4>
+                            <p class="band__text">Ambiente de aprendizado tranquilo e sem pressão.</p>
                         </div>
                     </div>
 
@@ -344,7 +524,7 @@
                     <div class="step">
                         <div class="step__number step__number--accent">4</div>
                         <h4 class="text-lg text-bold">Agende a aula</h4>
-                        <p class="text-muted">Pronto ! Seu horário está marcado para darmos início ao treino.</p>
+                        <p class="text-muted">Pronto! Seu horário está marcado para darmos início ao treino.</p>
                     </div>
 
                 </div>
@@ -360,16 +540,16 @@
 
                     <details class="faq-item">
                         <summary>
-                            <span>Você dá aula para 1º habilitação ?</span>
+                            <span>Você dá aula para 1ª habilitação?</span>
                             <i class="fa-solid fa-chevron-down faq-icon"></i>
                         </summary>
-                        <p>Sim, também trabalho com aulas para 1º habilitação, com foco em segurança, confiança e
+                        <p>Sim, também trabalho com aulas para 1ª habilitação, com foco em segurança, confiança e
                             evolução no trânsito desde o começo.</p>
                     </details>
 
                     <details class="faq-item">
                         <summary>
-                            <span>As aulas são apenas em Jundiaí e Região ?</span>
+                            <span>As aulas são apenas em Jundiaí e Região?</span>
                             <i class="fa-solid fa-chevron-down faq-icon"></i>
                         </summary>
                         <p>Sim, o atendimento principal é em Jundiaí e Região. Consulte a disponibilidade para
@@ -378,7 +558,7 @@
 
                     <details class="faq-item">
                         <summary>
-                            <span>Posso treinar estacionamento e manobras ?</span>
+                            <span>Posso treinar estacionamento e manobras?</span>
                             <i class="fa-solid fa-chevron-down faq-icon"></i>
                         </summary>
                         <p>Sim, podemos focar nas manobras específicas que você precisa no seu dia a dia.</p>
@@ -386,16 +566,16 @@
 
                     <details class="faq-item">
                         <summary>
-                            <span>Estou muito tempo sem dirigir, tem problema ?</span>
+                            <span>Estou muito tempo sem dirigir, tem problema?</span>
                             <i class="fa-solid fa-chevron-down faq-icon"></i>
                         </summary>
-                        <p>Nenhum problema ! As aulas são exatamente para ajudar você a retomar a prática com confiança.
+                        <p>Nenhum problema! As aulas são exatamente para ajudar você a retomar a prática com confiança.
                         </p>
                     </details>
 
                     <details class="faq-item">
                         <summary>
-                            <span>As aulas podem ser no meu próprio carro ?</span>
+                            <span>As aulas podem ser no meu próprio carro?</span>
                             <i class="fa-solid fa-chevron-down faq-icon"></i>
                         </summary>
                         <p>Faremos a avaliação no carro da empresa, dependendo da avaliação inicial, podemos realizar as
@@ -405,7 +585,7 @@
 
                     <details class="faq-item">
                         <summary>
-                            <span>Qual a duração de cada aula ?</span>
+                            <span>Qual a duração de cada aula?</span>
                             <i class="fa-solid fa-chevron-down faq-icon"></i>
                         </summary>
                         <p>As aulas têm duração de 50 minutos. Podemos agendar aulas duplas se
@@ -414,7 +594,7 @@
 
                     <details class="faq-item">
                         <summary>
-                            <span>Vocês preparam para o exame do Detran ?</span>
+                            <span>Vocês preparam para o exame do Detran?</span>
                             <i class="fa-solid fa-chevron-down faq-icon"></i>
                         </summary>
                         <p>O foco principal é para quem já é habilitado. Para primeira habilitação, consulte as
@@ -423,7 +603,7 @@
 
                     <details class="faq-item">
                         <summary>
-                            <span>Quais os horários de atendimento ?</span>
+                            <span>Quais os horários de atendimento?</span>
                             <i class="fa-solid fa-chevron-down faq-icon"></i>
                         </summary>
                         <p>Horários flexíveis a combinar. Agende conforme sua disponibilidade.</p>
@@ -431,7 +611,7 @@
 
                     <details class="faq-item">
                         <summary>
-                            <span>Quais as formas de pagamento ?</span>
+                            <span>Quais as formas de pagamento?</span>
                             <i class="fa-solid fa-chevron-down faq-icon"></i>
                         </summary>
                         <p>Aceitamos Pix, cartões de crédito e débito. Consulte pacotes de aulas para valores
@@ -458,20 +638,22 @@
             </div>
 
             <nav class="footer__links" aria-label="Redes sociais e links institucionais">
-                <a href="https://www.instagram.com/instrutoremjundiai_carlos/" target="_blank" rel="noopener">
+                <a href="https://www.instagram.com/instrutoremjundiai_carlos/" target="_blank"
+                    rel="noopener noreferrer">
                     <i class="fa-brands fa-instagram"></i> Instagram
                 </a>
                 <a href="https://www.facebook.com/people/Aulas-para-Habilitados/100063995201264/" target="_blank"
-                    rel="noopener">
+                    rel="noopener noreferrer">
                     <i class="fa-brands fa-facebook"></i> Facebook
                 </a>
-                <a href="https://wa.me/5511971101154" target="_blank" rel="noopener">
+                <a href="https://wa.me/5511971101154?text=Olá%2C%20Instrutor%20Carlos!%20Gostaria%20de%20saber%20mais%20sobre%20as%20aulas%20de%20direção."
+                    target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-whatsapp"></i> WhatsApp
                 </a>
             </nav>
             <span class="footer_copy">Feito com ❤️ por <a
                     href="https://diegofranciscodasilva.github.io/dev-software-web/" target="_blank"
-                    rel="noopener noreferrer">dev.software.web &#169;</a></span>
+                    rel="noopener noreferrer">dev.software.web ©</a></span>
         </div>
     </footer>
 

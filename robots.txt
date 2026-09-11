@@ -1,0 +1,8 @@
+# Regras para todos os robôs de busca
+User-agent: *
+
+# Permite o rastreamento de todas as páginas do site
+Allow: /
+
+# Informa a localização do sitemap XML
+Sitemap: https://instrutorcarlos.vercel.app/sitemap.xml
